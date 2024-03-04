@@ -22,12 +22,8 @@ st.markdown(
 st.markdown(
     """
     <div class="sticky">
-        This is a sticky horizontal box with a border.
+        This is a sticky box with a border.
     </div>
     """,
     unsafe_allow_html=True
 )
-
-# Add some content to make the page scrollable
-for i in range(50):
-    st.write(f"Scrollable content {i}")
