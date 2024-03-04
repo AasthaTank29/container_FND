@@ -6,7 +6,7 @@ st.markdown(
     <style>
     .sticky {
         position: -webkit-sticky; /* Safari */
-        position: sticky;
+        position: fixed;
         top: 20px;
         background-color: #f1f1f1;
         border: 1px solid #ddd;
